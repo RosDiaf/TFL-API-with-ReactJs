@@ -9,12 +9,7 @@ L.Icon.Default.mergeOptions({
 });
 
 class Map extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        count: 0
-    }
-  }
+
   componentDidMount() {
     this.map = L.map("map", {
       center: [51.529163, -0.10997],

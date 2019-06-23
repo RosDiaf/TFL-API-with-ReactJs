@@ -5,7 +5,6 @@ import 'leaflet/dist/leaflet.css'
 import { bikePoint } from './assets/mock/bikePoint'
 import { getBikePointData } from "./API/TFLAPI"
 
-// function App() {
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -52,7 +51,7 @@ class App extends React.Component {
           <div id="page-content-wrapper">
             <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
               <button className="btn btn-primary" id="menu-toggle" onClick={this.toggleSideBar}>
-                Toggle Menu {(this.state.isSideBarOpen ? '[Opened]' : '[Closed]') }
+                Toggle Menu {(this.state.isSideBarOpen ? '[ Opened ]' : '[ Closed ]') }
               </button>
             </nav>
             <div className="container-fluid">
